@@ -1,16 +1,32 @@
-# React + Vite
+# Little Lemon Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Little Lemon** restaurant website built with **React**, **Vite**, and **React Router DOM**.  
+It includes pages for booking, reserving a table, and viewing reservation details, along with a responsive Navbar.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## React Compiler
+- **React** – Frontend library for building UI components
+- **Vite** – Fast development build tool
+- **React Router DOM** – Routing for multi-page navigation
+- **Tailwind CSS** – Styling framework
+- **Jest** & **React Testing Library** – Unit testing framework and utilities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd little-lemon
+npm install
+npm run dev
+2. Install dev dependencies:-
+npm install --save-dev vitest @testing-library/react @testing-library/jest-dom @testing-library/user-event
+npx vitest
+
+
+
+
