@@ -19,7 +19,7 @@ It includes pages for booking, reserving a table, and viewing reservation detail
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Whedi540/Little-lemon.git
 cd little-lemon
 npm install
 npm run dev
